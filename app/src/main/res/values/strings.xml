@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Search and Seek</string>
+    <string name="play">Singleplayer</string>
+    <string name="living_room_levels">Living Room Levels</string>
+    <string name="all_clear">All clear!</string>
+    <string name="test">test</string>
+    <string name="select_category">Categories</string>
+    <string name="living_room">Living Room</string>
+    <string name="bath_room">Bath Room</string>
+    <string name="next_level">Next Level</string>
+    <string name="level_selection">Level Selection</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="start_single_player">Start Single Player Button</string>
+    <string name="button_living_room_category">Button Living Room Category</string>
+    <string name="button_bath_room_catgory">Button Bath Room Catgory</string>
+    <string name="button_bed_room_category">Button Bed Room Category</string>
+    <string name="exit_button">Exit Button</string>
+    <string name="avatar_button">Avatar Button</string>
+    <string name="go_to_levels_overview_button">Go to Levels Overview Button</string>
+    <string name="go_to_next_level_button">Go to next Level Button</string>
+    <string name="find_object_button">Find Object Button</string>
+    <string name="wrong_found_object_button">Wrong Found Object Button</string>
+</resources>

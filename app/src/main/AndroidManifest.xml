@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_app_logo_name"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_app_logo_name_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Find_Objects_in_Image"
+        tools:targetApi="31">
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2477791478485674~4815441194"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LevelSingleplayer"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AllLevelsSingleplayer"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WinPopUp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CategorySelection"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

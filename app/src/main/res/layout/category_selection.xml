@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/categorybackground">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_back_categories"
+            android:contentDescription="@string/exit_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_category"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_living_room_category"
+            android:contentDescription="@string/button_living_room_category"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:text="@string/living_room"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:background="@drawable/living_room_category_final"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_bathroom_category"
+            android:contentDescription="@string/button_bath_room_catgory"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:text="@string/bath_room"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:background="@drawable/bath_room_category_final"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_bedroom_category"
+            android:contentDescription="@string/button_bed_room_category"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:text="@string/bedroom"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:background="@drawable/bedroom_category_final"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

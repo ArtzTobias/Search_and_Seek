@@ -30,6 +30,7 @@ As you search, a person assists you by providing helpful feedback and guidance. 
 
 ## Screenshots and Demos
 <div style="display: flex; flex-wrap: wrap;">
+   <img src="https://github.com/ArtzTobias/Search_and_Seek/blob/6582c0c8af8950b95b9caa6a0c954469d1397fe5/app/screenshots/image9.jpg" alt="Screen0" title="Screen0" width="300"/>
   <img src="https://github.com/ArtzTobias/Search_and_Seek/blob/44ea9bf1a88b8570e197383ffddbc288d3dce893/app/screenshots/image1.jpg" alt="Screen1" title="Screen1" width="300"/>
   <img src="https://github.com/ArtzTobias/Search_and_Seek/blob/44ea9bf1a88b8570e197383ffddbc288d3dce893/app/screenshots/image2.jpg"alt="Screen2" title="Screen2." width="300"/>
   <img src="https://github.com/ArtzTobias/Search_and_Seek/blob/44ea9bf1a88b8570e197383ffddbc288d3dce893/app/screenshots/image3.jpg" alt="Screen3" title="Screen3." width="300"/>
